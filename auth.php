@@ -1,5 +1,5 @@
 <?php
-include ('/home/cristophol/dev/cours-php/exo-register/header.php');
+include ('header.php');
 // cette page permet de recuperé les information dun formulaire et les met 
 // dans un tableau qu'il parcours jusqua trouver les deux bonne valeur qui permete la conection'
     $log = $_POST['login'];
@@ -38,7 +38,7 @@ $found= false;
             echo "</br>";
             echo "le password est fine";
             echo"<script>";
-            echo "location.href =\"/cours-php/blog-php/indexblog.php\"";
+            echo "location.href =\"../blog-php/index.php\"";
             echo "</script>";
             
     }else {

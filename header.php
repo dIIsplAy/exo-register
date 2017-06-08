@@ -66,13 +66,13 @@ echo'
         <!--<button>SEND</button>-->
         <input type="submit" value="LOGIN" />
     </form>
-    <form id="register"method="POST" name="register" action="/cours-php/exo-register/register.php">
+    <form id="register"method="POST" name="register" action="register.php">
      <input type="submit" value="REGISTER" />
      </form>
 ';
     }else {
         echo 'WESHHH !'.' '.$_SESSION['login'].' ';
-        echo '<form action="/cours-php/exo-register/logout.php" method="POST"><button>se déconnecter</button></form>';
+        echo '<form action="logout.php" method="POST"><button>se déconnecter</button></form>';
     }
   ?>       
 </body>

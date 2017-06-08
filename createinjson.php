@@ -34,7 +34,7 @@ if($pass ===""){
     session_start();
           $_SESSION['login'] =$log ;
     echo"<script>";
-            echo "location.href =\"/cours-php/blog-php/indexblog.php\"";
+            echo "location.href =\"../blog-php/index.php\"";
             echo "</script>";
     echo"bg ta reussi";
 }

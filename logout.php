@@ -17,7 +17,7 @@ if (ini_get("session.use_cookies")) {
         
     );
      echo"<script>";
-            echo "location.href =\"/cours-php/exo-register/header.php\"";
+            echo "location.href =\"header.php\"";
             echo "</script>";
 }
 
