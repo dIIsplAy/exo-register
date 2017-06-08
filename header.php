@@ -60,7 +60,7 @@
 echo'
     <h1 id="titre">Wessshhh Alorssss</h1>
     <h2 id="soustitre">BVNNN SUR MON BLOG MAGEULLL!!!!!<h2>
-    <form id="log"method="POST" name="blog" action="/cours-php/exo-register/auth.php">
+    <form id="log"method="POST" name="blog" action="auth.php">
         <input type="log" name="login" placeholder="Pseudonyme" />
         <input type="password" name="pass" placeholder="Password" />
         <!--<button>SEND</button>-->
