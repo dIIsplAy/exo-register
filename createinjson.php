@@ -32,7 +32,7 @@ if($pass ===""){
     fwrite  ($open, $encode);
     fclose  ($open);
     session_start();
-          $_SESSION['lalala'] =$log ;
+          $_SESSION['login'] =$log ;
     echo"<script>";
             echo "location.href =\"/cours-php/blog-php/indexblog.php\"";
             echo "</script>";

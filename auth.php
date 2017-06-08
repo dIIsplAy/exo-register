@@ -43,7 +43,7 @@ $found= false;
             
     }else {
         echo 'Le mots de passe ou l\'utilisateur sont incorect';
-         echo '<form action=logout.php method="POST"><button>se déconnecter</button></form>';
+         
     }
 
         
